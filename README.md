@@ -25,7 +25,6 @@ Installation
 Clone the repository:
 
 git clone https://github.com/TurkerAlbayrak/python-file-crypt-desktop-app.git
-cd securecrypt
 
 Install dependencies:
 
@@ -34,7 +33,9 @@ pip install cryptography
 Run the application:
 
 python app.py
+
 How It Works
+
 Encryption
 Select a file
 Enter a password
@@ -57,11 +58,9 @@ Passwords are never stored.
 
 Project Structure
 securecrypt/
-│
 ├── app.py
 ├── README.md
-├── requirements.txt
-└── assets/
+
 Example
 
 Original file:
